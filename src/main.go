@@ -10,7 +10,9 @@ func main() {
 
 	fmt.Println("****************")
 
-	fmt.Printf("Here is a story of smart roghcast host:")
+	fmt.Println("Here is a story of experienced roughcast host:")
+
+	hosts.ExperiencedRoughcastHost{}.TellMyStory()
 
 	fmt.Println("****************")
 }

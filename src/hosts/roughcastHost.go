@@ -8,18 +8,11 @@ type RoughcastHost struct {}
 func (host RoughcastHost)TellMyStory() {
 	introduce()
 	buyARoughcastHouse()
-	decorateHouse()
+	host.decorateHouse()
+	moveToNewHouse()
 }
 
-func introduce(){
-	fmt.Println("I'm the host of roughcast house...")
-}
-
-func buyARoughcastHouse() {
-	fmt.Println("I bought a roughcast house...")
-}
-
-func decorateHouse() {
+func (host RoughcastHost) decorateHouse() {
 	fmt.Println("I want to decorate my house...")
 	hardwareWorker := findHardwareWorker()
 	hardwareWorker.Decorate()
