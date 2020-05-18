@@ -15,6 +15,8 @@ func main() {
 	hosts.ExperiencedRoughcastHost{}.TellMyStory()
 
 	fmt.Println("****************")
+
+	fmt.Println("Here is a story of hardcover host:")
+
+	hosts.HardcoverHost{}.TellMyStory()
 }
-
-

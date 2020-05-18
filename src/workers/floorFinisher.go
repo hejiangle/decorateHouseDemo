@@ -2,8 +2,8 @@ package workers
 
 import "fmt"
 
-type FloorFinisher struct {}
+type FloorFinisher struct{}
 
-func (w FloorFinisher)Decorate() {
+func (w FloorFinisher) Decorate() {
 	fmt.Println("Decorate floor...")
 }

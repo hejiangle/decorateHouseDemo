@@ -6,7 +6,7 @@ import (
 	"fmt"
 )
 
-func RecommendWorker (workType string) (workers.Worker, error) {
+func RecommendWorker(workType string) (workers.Worker, error) {
 	switch workType {
 	case "Hardware":
 		fmt.Println("HardwareWorker call me...")

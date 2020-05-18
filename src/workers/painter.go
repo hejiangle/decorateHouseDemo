@@ -2,8 +2,8 @@ package workers
 
 import "fmt"
 
-type Painter struct {}
+type Painter struct{}
 
-func (w Painter)Decorate() {
+func (w Painter) Decorate() {
 	fmt.Println("Decorate door and kick line...")
 }

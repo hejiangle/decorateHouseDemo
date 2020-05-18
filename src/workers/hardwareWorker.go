@@ -2,8 +2,8 @@ package workers
 
 import "fmt"
 
-type HardwareWorker struct {}
+type HardwareWorker struct{}
 
-func (w HardwareWorker)Decorate() {
+func (w HardwareWorker) Decorate() {
 	fmt.Println("Decorate window and balcony door...")
 }

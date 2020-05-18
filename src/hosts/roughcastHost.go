@@ -3,13 +3,17 @@ package hosts
 import "fmt"
 import "../workers"
 
-type RoughcastHost struct {}
+type RoughcastHost struct{}
 
-func (host RoughcastHost)TellMyStory() {
-	introduce()
+func (host RoughcastHost) TellMyStory() {
+	host.introduce()
 	buyARoughcastHouse()
 	host.decorateHouse()
 	moveToNewHouse()
+}
+
+func (host RoughcastHost) introduce() {
+	fmt.Println("I'm the experienced host of roughcast house...")
 }
 
 func (host RoughcastHost) decorateHouse() {

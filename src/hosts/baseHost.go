@@ -5,16 +5,13 @@ import "fmt"
 type host interface {
 	TellMyStory()
 	decorateHouse()
-}
-
-func introduce(){
-	fmt.Println("I'm the host of roughcast house...")
+	introduce()
 }
 
 func buyARoughcastHouse() {
 	fmt.Println("I bought a roughcast house...")
 }
 
-func moveToNewHouse(){
+func moveToNewHouse() {
 	fmt.Println("Now I can live in new house...")
 }

@@ -2,9 +2,8 @@ package workers
 
 import "fmt"
 
-type PaperHanger struct {}
+type PaperHanger struct{}
 
-func (w PaperHanger)Decorate() {
+func (w PaperHanger) Decorate() {
 	fmt.Println("Decorate wall...")
 }
-
