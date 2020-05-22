@@ -1,7 +1,7 @@
 package hosts
 
 import (
-	"../thirdParty"
+	"../third_party"
 	"fmt"
 )
 
@@ -9,7 +9,7 @@ type HardcoverHost struct{}
 
 func (host HardcoverHost) TellMyStory() {
 	host.introduce()
-	buyAHardcoverHouse(thirdParty.Decorate)
+	buyAHardcoverHouse(third_party.Decorate)
 	moveToNewHouse()
 }
 

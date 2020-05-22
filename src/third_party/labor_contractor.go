@@ -1,4 +1,4 @@
-package thirdParty
+package third_party
 
 import (
 	"../workers"

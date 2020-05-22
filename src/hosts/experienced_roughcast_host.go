@@ -1,7 +1,7 @@
 package hosts
 
 import "fmt"
-import "../thirdParty"
+import "../third_party"
 
 type ExperiencedRoughcastHost struct {
 }
@@ -21,19 +21,19 @@ func (host ExperiencedRoughcastHost) decorateHouse() {
 	fmt.Println("I want to decorate my house...")
 	fmt.Println("I call the labor contractor...")
 
-	hardwareWorker, _ := thirdParty.RecommendWorker("Hardware")
+	hardwareWorker, _ := third_party.RecommendWorker("Hardware")
 	hardwareWorker.Decorate()
 
-	floorFinisher, _ := thirdParty.RecommendWorker("Floor")
+	floorFinisher, _ := third_party.RecommendWorker("Floor")
 	floorFinisher.Decorate()
 
-	kitchenAndBathWorker, _ := thirdParty.RecommendWorker("KitchenAndBath")
+	kitchenAndBathWorker, _ := third_party.RecommendWorker("KitchenAndBath")
 	kitchenAndBathWorker.Decorate()
 
-	paperhanger, _ := thirdParty.RecommendWorker("Wall")
+	paperhanger, _ := third_party.RecommendWorker("Wall")
 	paperhanger.Decorate()
 
-	painter, _ := thirdParty.RecommendWorker("Paint")
+	painter, _ := third_party.RecommendWorker("Paint")
 	painter.Decorate()
 
 	fmt.Println("Decorate house done...")
