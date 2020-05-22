@@ -5,5 +5,5 @@ import "fmt"
 type PaperHanger struct{}
 
 func (w PaperHanger) Decorate() {
-	fmt.Println("Decorate wall...")
+	fmt.Println("PaperHanger decorate wall...")
 }

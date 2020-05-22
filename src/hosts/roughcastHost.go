@@ -13,7 +13,7 @@ func (host RoughcastHost) TellMyStory() {
 }
 
 func (host RoughcastHost) introduce() {
-	fmt.Println("I'm the experienced host of roughcast house...")
+	fmt.Println("I'm the host of roughcast house...")
 }
 
 func (host RoughcastHost) decorateHouse() {

@@ -5,5 +5,5 @@ import "fmt"
 type HardwareWorker struct{}
 
 func (w HardwareWorker) Decorate() {
-	fmt.Println("Decorate window and balcony door...")
+	fmt.Println("HardwareWorker decorate window and balcony door...")
 }

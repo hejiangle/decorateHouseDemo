@@ -5,5 +5,5 @@ import "fmt"
 type Painter struct{}
 
 func (w Painter) Decorate() {
-	fmt.Println("Decorate door and kick line...")
+	fmt.Println("Painter decorate door and kick line...")
 }
